@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 import Main from './components/main';
+import { Link } from 'react-router-dom';
 
 class App extends Component {
   render() {
@@ -11,10 +12,10 @@ class App extends Component {
         <Layout>
           <Header title="Title" scroll>
             <Navigation>
-              <a href="/">Link</a>
-              <a href="/">Link</a>
-              <a href="/">Link</a>
-              <a href="/">Link</a>
+              <Link to="/aboutme">About Me</Link>
+              <Link to="/contact">Contact</Link>
+              <Link to="/resume">Resume</Link>
+              <Link to="/projects">Projects</Link>
             </Navigation>
           </Header>
           <Drawer title="Title">
