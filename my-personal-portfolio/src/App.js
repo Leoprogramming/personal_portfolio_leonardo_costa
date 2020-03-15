@@ -20,10 +20,10 @@ class App extends Component {
           </Header>
           <Drawer title="Title">
             <Navigation>
-              <a href="/">Link</a>
-              <a href="/">Link</a>
-              <a href="/">Link</a>
-              <a href="/">Link</a>
+              <Link to="/aboutme">About Me</Link>
+              <Link to="/contact">Contact</Link>
+              <Link to="/resume">Resume</Link>
+              <Link to="/projects">Projects</Link>
             </Navigation>
           </Drawer>
             <Content>
