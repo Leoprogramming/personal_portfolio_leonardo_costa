@@ -17,6 +17,8 @@ class Landing extends Component {
 
             <div className="banner-text">
               <h1>Full-Stack Web Developer</h1>
+              <hr/>
+              <p>HTML/CSS | Bootstrap | JavaScript | React | Ruby/Rails | NodeJS | Express | MongoDB</p>
             </div>
           </Cell>
         </Grid>

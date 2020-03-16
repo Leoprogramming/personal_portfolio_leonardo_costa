@@ -34,3 +34,15 @@
   color: white;
   text-align: center;
 }
+
+.banner-text hr {
+  border-top: 5px dotted white;
+  color: white;
+  width: 50%;
+  margin: auto;
+}
+
+.banner-text p {
+  color: white;
+  text-align: center;
+}
