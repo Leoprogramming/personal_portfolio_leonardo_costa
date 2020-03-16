@@ -36,6 +36,10 @@ class Landing extends Component {
                   <i className="fas fa-at" aria-hidden="true" />
                 </a>
                 
+                <a href="https://codepen.io/leoprogramming" target="_blank" rel="noopener noreferrer">
+                  <i className="fab fa-codepen" aria-hidden="true" />
+                </a>
+                
               </div>
             </div>
           </Cell>
