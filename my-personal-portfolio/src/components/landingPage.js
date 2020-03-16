@@ -19,6 +19,12 @@ class Landing extends Component {
               <h1>Full-Stack Web Developer</h1>
               <hr/>
               <p>HTML/CSS | Bootstrap | JavaScript | React | Ruby/Rails | NodeJS | Express | MongoDB</p>
+              <div className="social-links">
+                <a href="https://www.linkedin.com/in/leonardo-costa-berlin/" target="_blank">
+                  LinkedIn
+                <i className="fa fa-linkedin-square" rel="noopener noreferrer" aria-hidden="true" />
+                </a>
+              </div>
             </div>
           </Cell>
         </Grid>
