@@ -20,20 +20,22 @@ class Landing extends Component {
               <hr/>
               <p>HTML/CSS | Bootstrap | JavaScript | React | Ruby/Rails | NodeJS | Express | MongoDB</p>
               <div className="social-links">
+                
+                {/* GitHub Hyperlink */}
                 <a href="https://github.com/Leoprogramming" target="_blank" rel="noopener noreferrer">
-                  GitHub
                   <i className="fab fa-github" aria-hidden="true" />
                 </a>
                 
+                {/* LinkedIn Hyperlink */}
                 <a href="https://www.linkedin.com/in/leonardo-costa-berlin/" target="_blank" rel="noopener noreferrer">
-                  LinkedIn
                   <i className="fab fa-linkedin" aria-hidden="true" />
                 </a>
                 
+                {/* E-Mail Hyperlink */}
                 <a href="leo.costa.programming@gmail.com" target="_blank" rel="noopener noreferrer">
-                  E-Mail
                   <i className="fas fa-at" aria-hidden="true" />
                 </a>
+                
               </div>
             </div>
           </Cell>
