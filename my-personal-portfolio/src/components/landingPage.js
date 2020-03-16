@@ -9,10 +9,15 @@ class Landing extends Component {
       <div className="landing-div">
         <Grid className="landing-grid">
           <Cell col={12}>
-            <img className="avatar-img"
+            <img 
+            className="avatar-img"
             src={profilePicture} 
             alt="Avatar Profile"
             />
+
+            <div className="banner-text">
+              <h1>Full-Stack Web Developer</h1>
+            </div>
           </Cell>
         </Grid>
       </div>
