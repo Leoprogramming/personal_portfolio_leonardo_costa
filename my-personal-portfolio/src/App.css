@@ -68,3 +68,12 @@
   font-size: 5em;
   padding: 10px;
 }
+
+.card-picture {
+  max-width: 100%;
+  height: auto;
+}
+
+.react-logo {
+  height: 15em;
+}
