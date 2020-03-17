@@ -74,6 +74,11 @@
   height: auto;
 }
 
+.card-title {
+  color: black;
+  height: 4em;
+}
+
 .react-logo {
   height: 15em;
 }

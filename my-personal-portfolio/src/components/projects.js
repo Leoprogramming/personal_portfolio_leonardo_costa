@@ -14,7 +14,7 @@ class Projects extends Component {
       return(
         <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
           <img className="react-logo" src={reactLogo} alt="" />
-          <CardTitle style={{color: '#black', height: '176px', background: 'url(https://commons.wikimedia.org/wiki/File:React-icon.svg) center / cover'}}>React Project #1</CardTitle>
+          <CardTitle className="card-title" >React Project #1</CardTitle>
           <CardText>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Error adipisci consequuntur quo atque nesciunt! Repudiandae fuga magni maxime voluptas! Voluptatem deserunt non doloribus doloremque fugiat dolor voluptatum dignissimos corporis atque.</CardText>
           <CardActions>
