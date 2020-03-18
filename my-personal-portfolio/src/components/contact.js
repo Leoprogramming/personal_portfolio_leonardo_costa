@@ -19,18 +19,35 @@ class Contact extends Component {
 
             <div className="contact-list">
               <List>
+                
                 <ListItem>
-                  <ListItemContent style={{ fontSize: '25px', fontFamily: 'Roboto Slab' }}>
+                  <ListItemContent style={{ fontSize: '30px', fontFamily: 'Roboto Slab' }}>
                   <i className="fa fa-phone-square" aria-hidden="true"/>
-                    (555) 456-7890
+                    (555) 123-456-789
                   </ListItemContent>
                 </ListItem>
+                
                 <ListItem>
-                  <ListItemContent icon="person">John Doe</ListItemContent>
+                  <ListItemContent style={{ fontSize: '30px', fontFamily: 'Roboto Slab' }}>
+                  <i className="fa fa-fax" aria-hidden="true"/>
+                    (555) 123-456-789
+                  </ListItemContent>
                 </ListItem>
+                
                 <ListItem>
-                  <ListItemContent icon="person">Paul Buck</ListItemContent>
+                  <ListItemContent style={{ fontSize: '30px', fontFamily: 'Roboto Slab' }}>
+                  <i className="fa fa-envelope" aria-hidden="true"/>
+                    leo.costa.programming@gmail.com
+                  </ListItemContent>
                 </ListItem>
+                
+                <ListItem>
+                  <ListItemContent style={{ fontSize: '30px', fontFamily: 'Roboto Slab' }}>
+                  <i className="fab fa-skype" aria-hidden="true"/>
+                    MySkypeId
+                  </ListItemContent>
+                </ListItem>
+
               </List>
             </div>
 
