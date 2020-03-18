@@ -12,8 +12,10 @@ class Contact extends Component {
             <img className="profile-picture-full" src={profilePictureFull} alt="avatar" />
           <p style={{ width: '75%', margin: 'auto', paddingTop: '1em' }}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima doloribus quisquam corrupti aperiam, iure tenetur id similique neque dolorem odio laudantium voluptates eligendi consequatur fuga nisi, nobis deleniti modi rerum?</p>
           </Cell>
-          
+
           <Cell col={6}>
+            <h2>Contact Me</h2>
+            <hr/>
           </Cell>
             
         </Grid>

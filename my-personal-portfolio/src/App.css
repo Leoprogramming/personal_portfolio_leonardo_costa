@@ -47,7 +47,17 @@
 }
 
 .contact-grid h2 {
-  font-family: "Roboto Slab";
+  font-family: "Roboto Slab", sans-serif;
+}
+
+.contact-grid p {
+  font-family: "Roboto", sans-serif;
+}
+
+.contact-grid hr {
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
 }
 
 .profile-picture-full {
