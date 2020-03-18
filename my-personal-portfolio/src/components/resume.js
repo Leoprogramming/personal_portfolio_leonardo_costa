@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 import profilePicture from '../profilePicture.jpg';
 import Education from './education';
+import Experience from './experience';
 
 class Resume extends Component {
   render() {
@@ -36,12 +37,24 @@ class Resume extends Component {
             <h2>Education</h2>
 
             <Education 
-              startYear={2002}
-              endYear={2006}
+              startYear={2019}
+              endYear={2019}
+              schoolName="Placeholder 1"
+              schoolDescription="Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati ratione alias quis suscipit accusamus eligendi optio accusantium perspiciatis aperiam in molestiae eaque"
+            />
+
+            <Education 
+              startYear={2007}
+              endYear={2012}
               schoolName="My University"
               schoolDescription="Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati ratione alias quis suscipit accusamus eligendi optio accusantium perspiciatis aperiam in molestiae eaque"
-
             />
+            <hr style={{ borderTop: '3px solid #e22947' }} />
+
+            <h2>Experience
+
+            </h2>
+
           </Cell>
         </Grid>
 
