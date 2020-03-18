@@ -49,6 +49,7 @@
 .profile-picture-full {
   height: 360px;
   width: 450px;
+  border-radius: 10%;
 }
 
 .avatar-img {
