@@ -3,6 +3,7 @@ import { Grid, Cell } from 'react-mdl';
 import profilePicture from '../profilePicture.jpg';
 import Education from './education';
 import Experience from './experience';
+import Skills from './skills';
 
 class Resume extends Component {
   render() {
@@ -51,9 +52,25 @@ class Resume extends Component {
             />
             <hr style={{ borderTop: '3px solid #e22947' }} />
 
-            <h2>Experience
+            <h2>Experience</h2>
 
-            </h2>
+            <Experience 
+              startYear={2009}
+              endYear={2012}
+              jobName="First Job"
+              jobDescription="Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati ratione alias quis suscipit accusamus eligendi optio accusantium perspiciatis aperiam in molestiae eaque"
+            />
+
+            <Experience 
+              startYear={2013}
+              endYear={2016}
+              jobName="Second Job"
+              jobDescription="Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati ratione alias quis suscipit accusamus eligendi optio accusantium perspiciatis aperiam in molestiae eaque"
+            />
+            <hr style={{ borderTop: '3px solid #e22947' }} />
+
+            <h2>Skills</h2>
+            <Skills />
 
           </Cell>
         </Grid>
