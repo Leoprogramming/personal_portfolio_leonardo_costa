@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Grid, Cell } from 'react-mdl';
+import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
 import profilePictureFull from '../profilePictureFull.jpg'
 
 class Contact extends Component {
@@ -16,8 +16,21 @@ class Contact extends Component {
           <Cell col={6}>
             <h2>Contact Me</h2>
             <hr/>
+
+              <List>
+                <ListItem>
+                  <ListItemContent icon="person">Leo Costa</ListItemContent>
+                </ListItem>
+                <ListItem>
+                  <ListItemContent icon="person">John Doe</ListItemContent>
+                </ListItem>
+                <ListItem>
+                  <ListItemContent icon="person">Paul Buck</ListItemContent>
+                </ListItem>
+              </List>
+
+
           </Cell>
-            
         </Grid>
       </div>
     );
