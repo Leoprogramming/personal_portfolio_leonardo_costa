@@ -60,6 +60,11 @@
   margin: auto;
 }
 
+.contact-list i {
+  font-size: 25px;
+  padding-right: 5rem;
+}
+
 .profile-picture-full {
   height: 360px;
   width: 450px;

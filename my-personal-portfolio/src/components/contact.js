@@ -17,9 +17,13 @@ class Contact extends Component {
             <h2>Contact Me</h2>
             <hr/>
 
+            <div className="contact-list">
               <List>
                 <ListItem>
-                  <ListItemContent icon="person">Leo Costa</ListItemContent>
+                  <ListItemContent style={{ fontSize: '25px', fontFamily: 'Roboto Slab' }}>
+                  <i className="fa fa-phone-square" aria-hidden="true"/>
+                    (555) 456-7890
+                  </ListItemContent>
                 </ListItem>
                 <ListItem>
                   <ListItemContent icon="person">John Doe</ListItemContent>
@@ -28,7 +32,7 @@ class Contact extends Component {
                   <ListItemContent icon="person">Paul Buck</ListItemContent>
                 </ListItem>
               </List>
-
+            </div>
 
           </Cell>
         </Grid>
