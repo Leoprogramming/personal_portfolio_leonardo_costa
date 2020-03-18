@@ -46,6 +46,10 @@
   justify-content: center;
 }
 
+.contact-grid h2 {
+  font-family: "Roboto Slab";
+}
+
 .profile-picture-full {
   height: 360px;
   width: 450px;
