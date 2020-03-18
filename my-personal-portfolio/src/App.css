@@ -25,6 +25,11 @@
   display: flex;
 }
 
+.resume-right-col {
+  background: #27221F;
+  color: white;
+}
+
 .contact-body {
   width: 100%;
   height: 100%;
