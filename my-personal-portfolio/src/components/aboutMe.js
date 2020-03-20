@@ -10,13 +10,13 @@ class About extends Component {
           <Cell col={6}>
             <h2>Leo Costa</h2>
             <img className="profile-picture-full" src={profilePictureFull} alt="avatar" />
-          <p style={{ width: '75%', margin: 'auto', paddingTop: '1em' }}>Coming from a background in Law and Business, I decided to pursue my dreams and chase my passion in Technology and Programming. Thanks to Le Wagon's Full-Stack Bootcamp I have been learning exponentially.</p>
-
-          <h5>
-          <strong style={{textDecoration: 'none', color: '#ff3f00'}}>Currently looking for a Full-Stack/Front-End Position in Berlin - Preferred Tech-Stack: 
-            <br />
-            Ruby/Rails, JavaScript/React/Node/Express/MongoDB</strong> 
-          </h5>
+            <p style={{ width: '75%', margin: 'auto', paddingTop: '1em', fontStyle: 'italic' }}>
+            Coming from a background in Law and Business, I decided to pursue my dreams and chase my passion in Technology and Programming</p>
+            <p style={{fontWeight: 'bold', color: '#ff3f00', fontSize: '18px' }}>
+            Just Graduated from a Full-Stack Bootcamp - 
+            <br />Currently looking for a Full-Stack/Front-End Position in Berlin -
+            <br />Preferred Tech-Stack: Ruby/Rails, JavaScript/React/Node/Express/MongoDB 
+            </p>
           </Cell>
           <Cell col={6}>
             <h2>Some Of My Interests:</h2>
