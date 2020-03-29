@@ -21,17 +21,17 @@ class Landing extends Component {
               <p>HTML/CSS | Bootstrap | JavaScript | React | Ruby/Rails | NodeJS | Express | MongoDB</p>
               <div className="social-links">
                 
-                {/* GitHub Hyperlink */}
+                {/* GitHub */}
                 <a href="https://github.com/Leoprogramming" target="_blank" rel="noopener noreferrer">
                   <i className="fab fa-github" aria-hidden="true" />
                 </a>
                 
-                {/* LinkedIn Hyperlink */}
+                {/* LinkedIn */}
                 <a href="https://www.linkedin.com/in/leonardo-costa-berlin/" target="_blank" rel="noopener noreferrer">
                   <i className="fab fa-linkedin" aria-hidden="true" />
                 </a>
                 
-                {/* E-Mail Hyperlink */}
+                {/* E-Mail */}
                 <a href="leo.costa.programming@gmail.com" target="_blank" rel="noopener noreferrer">
                   <i className="fas fa-at" aria-hidden="true" />
                 </a>
