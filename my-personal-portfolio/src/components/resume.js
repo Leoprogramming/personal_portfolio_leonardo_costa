@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
-import profilePicture from '../profilePicture.jpg';
 import Education from './education';
 import Experience from './experience';
 import Skills from './skills';
+
 
 class Resume extends Component {
   render() {
@@ -11,85 +11,121 @@ class Resume extends Component {
       <div>
         <Grid>
           <Cell col={4}>
-            <div style={{ textAlign: 'center' }}>
-              <img className="avatar-img"
-              src={profilePicture} 
-              alt="avatar" 
-              style={{ height: '200px' }}
-              />
+            <div style={{textAlign: 'center'}}>
+
             </div>
-            <h2 style={{ paddingTop: '2em' }}>Leo Costa</h2>
-            <h4 style={{ color: 'grey' }}>Full-Stack Developer</h4>
-            <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae deserunt officia exercitationem harum dolorum itaque eligendi enim ratione nesciunt. Eaque nostrum nobis tenetur incidunt rem possimus, perspiciatis error in dolorum.</p>
-            <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
-            <h5>Address</h5>
-            <p>Berlin</p>
-            <h5>Phone</h5>
-            <p>(555) 123-456-789</p>
-            <h5>E-Mail</h5>
-            <p>leo.coding.public@gmail.com</p>
-            <h5>Web</h5>
-            <p>mywebsite.com</p>
-            <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
+            <div class="resume_text">
+            <h2 style={{paddingTop: '2em'}}>Biography</h2>
+            <h4 style={{color: 'white'}}>Leonardo Costa</h4>
+            <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
+            <p>Hi, I'm Leo. I grew up in a vibrant city by the Atlantic coast, and have been interested in technology since self-teaching myself the DOS operational system in the 90s. My main interests are Web application development and Project Management/Operations.
+            <p></p>
+            <p>I am currently in the process of improving my JavaScript, React and Node.js skills, and plan to learn more about DevOps thereafter.</p>
+            </p>
+            <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
+            <h5>RESIDENCE</h5>
+            <p>Berlin, Germany</p>
+            <h5>WORKING PERMIT</h5>
+            <p>I have <b>full</b> working permissions both in The EU/EEA and The UK.</p>
+            <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
+            </div>
           </Cell>
-
           <Cell className="resume-right-col" col={8}>
+            
             <h2>Education</h2>
-
-            <Education 
+            <Education
               startYear={2019}
               endYear={2019}
-              schoolName="Placeholder 1"
-              schoolDescription="Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati ratione alias quis suscipit accusamus eligendi optio accusantium perspiciatis aperiam in molestiae eaque"
+              schoolName="Le Wagon: Full-Stack Web Developer"
+              schoolDescription="
+              Le Wagon is ranked as the worlds best coding bootcamp for the past 3 years. With over 450-500 Hours of training, lectures and exercises, topics include:
+              Ruby, Ruby on Rails, OOP, APIs, JSON, Scraping, Relational DB, SQL, Postgresql, HTML, CSS, Bootstrap, JavaScript ES6, React, Wireframing, Prototyping, UI Design, Test Driven Development, Git, Github, Technical Workflow."
             />
 
-            <Education 
+            <Education
+              startYear={2019}
+              endYear={2019}
+              schoolName="freeCodeCamp.org"
+              schoolDescription="Responsive Web Design Developer Certificate - Approximately 600 hours covering HTML5/CSS FlexBox and Grid, Sass, React, JavaScript and more in real life projects"
+            />
+
+            <Education
               startYear={2007}
-              endYear={2012}
-              schoolName="My University"
-              schoolDescription="Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati ratione alias quis suscipit accusamus eligendi optio accusantium perspiciatis aperiam in molestiae eaque"
+              endYear={2014}
+              schoolName="Universidade de Fortaleza"
+              schoolDescription="Bachelor's Degree in Law with posterior Postgraduate Studies in International Law, Foreign Relations and Trade"
             />
-            <hr style={{ borderTop: '3px solid #e22947' }} />
 
+            <hr style={{borderTop: '3px solid #f0145f'}} />
             <h2>Experience</h2>
 
-            <Experience 
-              startYear={2009}
-              endYear={2012}
-              jobName="First Job"
-              jobDescription="Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati ratione alias quis suscipit accusamus eligendi optio accusantium perspiciatis aperiam in molestiae eaque"
+            <Experience
+              startYear={2019}
+              endYear={2020}
+              jobName="Full-Stack Developer / Freelancer"
+              jobDescription="Technical consultations for small clients, Ruby, JavaScript/React development. SEO consultations."
             />
 
-            <Experience 
-              startYear={2013}
-              endYear={2016}
-              jobName="Second Job"
-              jobDescription="Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati ratione alias quis suscipit accusamus eligendi optio accusantium perspiciatis aperiam in molestiae eaque"
+            <Experience
+              startYear={2017}
+              endYear={2019}
+              jobName="Operations Manager, Crazy Voyages"
+              jobDescription="Responsible for all operations in Berlin. 
+              Duties included: Personally running all tours and events, business planning and development in Berlin, staffing and training, managing the partnership network day-to-day operations among other responsibilities."
             />
-            <hr style={{ borderTop: '3px solid #e22947' }} />
 
+            <Experience
+              startYear={2014}
+              endYear={2017}
+              jobName="Operations Manager - Original Europe Tours"
+              jobDescription="Duties included: Implementing and improving the product, company's SEO and improving the partnership's network and operating tours up to 200+ guests among other responsibilities."
+            />
+
+            <hr style={{borderTop: '3px solid #f0145f'}} />
             <h2>Skills</h2>
-            <Skills 
-              skill="HTML/CSS"
-              progress={100}
-            />
-            <Skills 
+
+            <Skills
               skill="Ruby"
-              progress={50}
+              progress={45}
             />
-            <Skills 
-              skill="javaScript"
-              progress={50}
+
+            <Skills
+              skill="JavaScript"
+              progress={45}
             />
-            <Skills 
+                    
+            <Skills
+              skill="HTML/CSS"
+              progress={75}
+            />
+
+            <Skills
               skill="React"
+              progress={40}
+            />
+
+            <Skills
+              skill="Bootstrap"
+              progress={50}
+            />
+
+            <Skills
+              skill="Node.js"
+              progress={40}
+            />
+
+            <Skills
+              skill="APIs"
+              progress={25}
+            />
+
+            <Skills
+              skill="Git"
               progress={50}
             />
 
           </Cell>
         </Grid>
-
       </div>
     );
   }

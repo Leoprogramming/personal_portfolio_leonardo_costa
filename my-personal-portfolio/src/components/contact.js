@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
-import profilePictureFull from '../profilePictureFull.jpg'
 
 class Contact extends Component {
   render() {
@@ -8,49 +7,39 @@ class Contact extends Component {
       <div className="contact-body">
         <Grid className="contact-grid">
           <Cell col={6}>
-            <h2>Leo Costa</h2>
-            <img className="profile-picture-full" src={profilePictureFull} alt="avatar" />
-          <p style={{ width: '75%', margin: 'auto', paddingTop: '1em' }}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima doloribus quisquam corrupti aperiam, iure tenetur id similique neque dolorem odio laudantium voluptates eligendi consequatur fuga nisi, nobis deleniti modi rerum?</p>
-          </Cell>
+            <h2>Leonardo Costa</h2>
+             <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}><h4>I am open to a new position - Also remote or relocating</h4></p>
 
+          </Cell>
           <Cell col={6}>
-            <h2>Contact Me</h2>
+            <h2>Contact</h2>
             <hr/>
 
             <div className="contact-list">
               <List>
-                
                 <ListItem>
-                  <ListItemContent style={{ fontSize: '30px', fontFamily: 'Roboto Slab' }}>
-                  <i className="fa fa-phone-square" aria-hidden="true"/>
-                    (555) 123-456-789
+                  <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
+                    <i className="fa fa-linkedin" aria-hidden="true"/>
+                    <a href="https://www.linkedin.com/in/leonardo-costa-developer/" target="_blank" rel="noopener noreferrer">LinkedIn:</a>
                   </ListItemContent>
                 </ListItem>
-                
+
                 <ListItem>
-                  <ListItemContent style={{ fontSize: '30px', fontFamily: 'Roboto Slab' }}>
-                  <i className="fa fa-fax" aria-hidden="true"/>
-                    (555) 123-456-789
+                  <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
+                    <h6><i className="fa fa-fax" aria-hidden="true"/>
+                    LinkedIn message or E-Mail me first<span role="img" alt="avatar"> 😄</span> </h6>
                   </ListItemContent>
                 </ListItem>
-                
+
                 <ListItem>
-                  <ListItemContent style={{ fontSize: '30px', fontFamily: 'Roboto Slab' }}>
-                  <i className="fa fa-envelope" aria-hidden="true"/>
-                  leo.coding.public@gmail.com
-                  </ListItemContent>
-                </ListItem>
-                
-                <ListItem>
-                  <ListItemContent style={{ fontSize: '30px', fontFamily: 'Roboto Slab' }}>
-                  <i className="fab fa-skype" aria-hidden="true"/>
-                    MySkypeId
+                  <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
+                    <i className="fa fa-envelope" aria-hidden="true"/>
+                    <a href="mailto:leo.costa.programming@gmail.com" target="_blank" rel="noopener noreferrer">My E-Mail:</a>
                   </ListItemContent>
                 </ListItem>
 
               </List>
             </div>
-
           </Cell>
         </Grid>
       </div>
