@@ -25,7 +25,6 @@ class Landing extends Component {
                 <p><b>Ruby/Rails | JavaScriptES6 | React | Node.js | Git | HTML/CSS | APIs</b></p>
 
               <div className="social-links">
-<<<<<<< HEAD
 
               {/* LinkedIn */}
               <a href="https://www.linkedin.com/in/leonardo-costa-programmer/" rel="noopener noreferrer" target="_blank">
@@ -43,29 +42,7 @@ class Landing extends Component {
               </a>
 
             </div>
-=======
-                
-                {/* GitHub */}
-                <a href="https://github.com/Leoprogramming" target="_blank" rel="noopener noreferrer">
-                  <i className="fab fa-github" aria-hidden="true" />
-                </a>
-                
-                {/* LinkedIn */}
-                <a href="https://www.linkedin.com/in/leonardo-costa-berlin/" target="_blank" rel="noopener noreferrer">
-                  <i className="fab fa-linkedin" aria-hidden="true" />
-                </a>
-                
-                {/* E-Mail */}
-                <a href="leo.costa.programming@gmail.com" target="_blank" rel="noopener noreferrer">
-                  <i className="fas fa-at" aria-hidden="true" />
-                </a>
-                
-                <a href="https://codepen.io/leoprogramming" target="_blank" rel="noopener noreferrer">
-                  <i className="fab fa-codepen" aria-hidden="true" />
-                </a>
-                
-              </div>
->>>>>>> 0bee79e559fa41d4c48a4d4281e95310b4f85202
+
             </div>
           </Cell>
         </Grid>
